@@ -1,0 +1,23 @@
+//
+//  spikeZoom-Prefix.pch
+//  spikeZoom
+//
+//  Created by Anny Pino on 12/10/17.
+//  Copyright © 2017 Anny Pino. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <MobileRTC/MobileRTC.h>
+#endif
+
+
+
+

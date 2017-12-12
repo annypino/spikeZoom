@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A5AE95E1FDB3DBF00569038 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5AE95D1FDB3DBF00569038 /* AppDelegate.m */; };
+		4A5AE9611FDB3DBF00569038 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5AE9601FDB3DBF00569038 /* ViewController.m */; };
+		4A5AE9641FDB3DBF00569038 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A5AE9621FDB3DBF00569038 /* Main.storyboard */; };
+		4A5AE9661FDB3DBF00569038 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A5AE9651FDB3DBF00569038 /* Assets.xcassets */; };
+		4A5AE9691FDB3DBF00569038 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A5AE9671FDB3DBF00569038 /* LaunchScreen.storyboard */; };
+		4A5AE96C1FDB3DBF00569038 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5AE96B1FDB3DBF00569038 /* main.m */; };
+		4A5AE9741FDB3E4200569038 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A5AE9731FDB3E2600569038 /* libsqlite3.tbd */; };
+		4A5AE9761FDB3E5400569038 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A5AE9751FDB3E5400569038 /* libstdc++.6.0.9.tbd */; };
+		4A5AE9781FDB3E6A00569038 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A5AE9771FDB3E6A00569038 /* libz.1.2.5.tbd */; };
+		4A5AE9831FDB407100569038 /* MobileRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A5AE97B1FDB3F4C00569038 /* MobileRTC.framework */; };
+		4A5AE9841FDB507200569038 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A5AE9791FDB3E7600569038 /* VideoToolbox.framework */; };
+		4AE387891FDDD0E3000ABD59 /* MobileRTCResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4A5AE97F1FDB3F9E00569038 /* MobileRTCResources.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A5AE9591FDB3DBF00569038 /* spikeZoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spikeZoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A5AE95C1FDB3DBF00569038 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4A5AE95D1FDB3DBF00569038 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4A5AE95F1FDB3DBF00569038 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4A5AE9601FDB3DBF00569038 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4A5AE9631FDB3DBF00569038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A5AE9651FDB3DBF00569038 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A5AE9681FDB3DBF00569038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A5AE96A1FDB3DBF00569038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A5AE96B1FDB3DBF00569038 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A5AE9731FDB3E2600569038 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		4A5AE9751FDB3E5400569038 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		4A5AE9771FDB3E6A00569038 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		4A5AE9791FDB3E7600569038 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		4A5AE97B1FDB3F4C00569038 /* MobileRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileRTC.framework; path = ../lib/MobileRTC.framework; sourceTree = "<group>"; };
+		4A5AE97F1FDB3F9E00569038 /* MobileRTCResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = MobileRTCResources.bundle; path = ../lib/MobileRTCResources.bundle; sourceTree = "<group>"; };
+		4A5AE9811FDB403100569038 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		4AE387861FDDC1A9000ABD59 /* spikeZoom-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "spikeZoom-Prefix.pch"; sourceTree = "<group>"; };
+		4AE387881FDDD083000ABD59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A5AE9561FDB3DBF00569038 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A5AE9841FDB507200569038 /* VideoToolbox.framework in Frameworks */,
+				4A5AE9831FDB407100569038 /* MobileRTC.framework in Frameworks */,
+				4A5AE9741FDB3E4200569038 /* libsqlite3.tbd in Frameworks */,
+				4A5AE9781FDB3E6A00569038 /* libz.1.2.5.tbd in Frameworks */,
+				4A5AE9761FDB3E5400569038 /* libstdc++.6.0.9.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A5AE9501FDB3DBF00569038 = {
+			isa = PBXGroup;
+			children = (
+				4A5AE97F1FDB3F9E00569038 /* MobileRTCResources.bundle */,
+				4A5AE95B1FDB3DBF00569038 /* spikeZoom */,
+				4A5AE95A1FDB3DBF00569038 /* Products */,
+				4A5AE9721FDB3E2600569038 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4A5AE95A1FDB3DBF00569038 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A5AE9591FDB3DBF00569038 /* spikeZoom.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A5AE95B1FDB3DBF00569038 /* spikeZoom */ = {
+			isa = PBXGroup;
+			children = (
+				4A5AE95C1FDB3DBF00569038 /* AppDelegate.h */,
+				4A5AE95D1FDB3DBF00569038 /* AppDelegate.m */,
+				4A5AE95F1FDB3DBF00569038 /* ViewController.h */,
+				4A5AE9601FDB3DBF00569038 /* ViewController.m */,
+				4A5AE9621FDB3DBF00569038 /* Main.storyboard */,
+				4A5AE9651FDB3DBF00569038 /* Assets.xcassets */,
+				4A5AE9671FDB3DBF00569038 /* LaunchScreen.storyboard */,
+				4A5AE96A1FDB3DBF00569038 /* Info.plist */,
+				4A5AE96B1FDB3DBF00569038 /* main.m */,
+				4AE387861FDDC1A9000ABD59 /* spikeZoom-Prefix.pch */,
+			);
+			path = spikeZoom;
+			sourceTree = "<group>";
+		};
+		4A5AE9721FDB3E2600569038 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A5AE9811FDB403100569038 /* CoreBluetooth.framework */,
+				4A5AE97B1FDB3F4C00569038 /* MobileRTC.framework */,
+				4A5AE9791FDB3E7600569038 /* VideoToolbox.framework */,
+				4A5AE9771FDB3E6A00569038 /* libz.1.2.5.tbd */,
+				4A5AE9751FDB3E5400569038 /* libstdc++.6.0.9.tbd */,
+				4A5AE9731FDB3E2600569038 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A5AE9581FDB3DBF00569038 /* spikeZoom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A5AE96F1FDB3DBF00569038 /* Build configuration list for PBXNativeTarget "spikeZoom" */;
+			buildPhases = (
+				4A5AE9551FDB3DBF00569038 /* Sources */,
+				4A5AE9561FDB3DBF00569038 /* Frameworks */,
+				4A5AE9571FDB3DBF00569038 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = spikeZoom;
+			productName = spikeZoom;
+			productReference = 4A5AE9591FDB3DBF00569038 /* spikeZoom.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A5AE9511FDB3DBF00569038 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Anny Pino";
+				TargetAttributes = {
+					4A5AE9581FDB3DBF00569038 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4A5AE9541FDB3DBF00569038 /* Build configuration list for PBXProject "spikeZoom" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A5AE9501FDB3DBF00569038;
+			productRefGroup = 4A5AE95A1FDB3DBF00569038 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A5AE9581FDB3DBF00569038 /* spikeZoom */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A5AE9571FDB3DBF00569038 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A5AE9691FDB3DBF00569038 /* LaunchScreen.storyboard in Resources */,
+				4AE387891FDDD0E3000ABD59 /* MobileRTCResources.bundle in Resources */,
+				4A5AE9661FDB3DBF00569038 /* Assets.xcassets in Resources */,
+				4A5AE9641FDB3DBF00569038 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A5AE9551FDB3DBF00569038 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A5AE9611FDB3DBF00569038 /* ViewController.m in Sources */,
+				4A5AE96C1FDB3DBF00569038 /* main.m in Sources */,
+				4A5AE95E1FDB3DBF00569038 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4A5AE9621FDB3DBF00569038 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A5AE9631FDB3DBF00569038 /* Base */,
+				4AE387881FDDD083000ABD59 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4A5AE9671FDB3DBF00569038 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A5AE9681FDB3DBF00569038 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A5AE96D1FDB3DBF00569038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4A5AE96E1FDB3DBF00569038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A5AE9701FDB3DBF00569038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q984J3FBP9;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					../lib,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "spikeZoom/spikeZoom-Prefix.pch";
+				INFOPLIST_FILE = spikeZoom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.annykita.spikeZoom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Debug;
+		};
+		4A5AE9711FDB3DBF00569038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q984J3FBP9;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					../lib,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "spikeZoom/spikeZoom-Prefix.pch";
+				INFOPLIST_FILE = spikeZoom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.annykita.spikeZoom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A5AE9541FDB3DBF00569038 /* Build configuration list for PBXProject "spikeZoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A5AE96D1FDB3DBF00569038 /* Debug */,
+				4A5AE96E1FDB3DBF00569038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A5AE96F1FDB3DBF00569038 /* Build configuration list for PBXNativeTarget "spikeZoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A5AE9701FDB3DBF00569038 /* Debug */,
+				4A5AE9711FDB3DBF00569038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A5AE9511FDB3DBF00569038 /* Project object */;
+}
